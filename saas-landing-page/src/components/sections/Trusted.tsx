@@ -38,7 +38,7 @@ export default function Trusted() {
 
           <div className="flex w-max animate-marquee gap-14 opacity-70">
 
-            {[...companies, ...companies].map((c, i) => (
+            {[...companies, ...companies].map((c) => (
               <div className="px-6 py-3 rounded-lg border border-border/60 bg-muted/20 flex items-center justify-center">
                 <img
                   src={c.logo}
