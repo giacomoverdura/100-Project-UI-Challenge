@@ -10,6 +10,7 @@ import FAQ from './components/sections/FAQ';
 import CTA from './components/sections/CTA';
 import Footer from './components/sections/Footer';
 import Reveal from "@/components/ui/Reveal"
+import ToggleTheme from './components/sections/ToggleTheme';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <CTA />
       </Reveal>
       <Footer />
+      <ToggleTheme />
     </div>
     </>
   )
