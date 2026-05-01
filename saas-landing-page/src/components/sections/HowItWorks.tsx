@@ -1,10 +1,9 @@
-import { Card } from "@/components/ui/card"
-import { howItWorksSteps } from "../../data/HowItWorksData"
+import { howItWorksSteps } from "@/data/HowItWorksData"
 
 export default function HowItWorks() {
   return (
     <>
-    <section className="py-24">
+    <section className="py-24 bg-secondary/20">
       <div className="max-w-7xl mx-auto px-6 space-y-16">
 
         {/* Header */}

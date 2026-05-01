@@ -1,4 +1,4 @@
-import { features } from "../../data/FeatureData"
+import { features } from "@/data/FeatureData"
 import { Card } from "@/components/ui/card"
 
 export default function Features() {
