@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="container mx-auto py-6 px-4 flex items-center justify-between">
           <div />
           <div className="text-sm text-gray-600">
-            &copy; {new Date().getFullYear()} SaaS Company. All rights reserved.
+            &copy; {new Date().getFullYear()} JG SaaS Company. All rights reserved.
           </div>
           <div className="space-x-4">
             <Button variant="outline" size="sm" onClick={toggleTheme}>
