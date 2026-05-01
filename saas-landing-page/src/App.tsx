@@ -13,6 +13,7 @@ import Footer from './components/sections/Footer';
 function App() {
   return (
     <>
+    <div className="min-h-screen bg-background text-foreground">
       <Navbar />
       <Hero />
       <Trusted />
@@ -23,6 +24,7 @@ function App() {
       <FAQ />
       <CTA />
       <Footer />
+    </div>
     </>
   )
 }
