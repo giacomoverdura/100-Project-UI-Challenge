@@ -5,13 +5,13 @@ import Navbar from "@/components/layout/Navbar"
 import ToggleTheme from "./ToggleTheme"
 
 export default function Home() {
-  const categories = ["All", "Landing Page", "Dashboard"]
+  const categories = ["All", "Landing Page", "Web App"]
   const [selected, setSelected] = useState("All")
   
   const filteredProjects =
   selected === "All"
     ? projects
-    : projects.filter((p) => p.category === selected)
+    : projects.filter((p) => p.category.includes(selected))
 
   
   const ITEMS_PER_PAGE = 6
@@ -30,6 +30,7 @@ export default function Home() {
     <div className="min-h-screen bg-background">
 
       <Navbar />
+
       <div className="flex justify-center gap-2 max-w-6xl mx-auto px-6 py-4">
         {categories.map((cat) => (
           <button

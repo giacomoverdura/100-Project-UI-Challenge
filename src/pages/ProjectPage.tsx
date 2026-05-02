@@ -33,7 +33,7 @@ export default function ProjectPage() {
         </h1>
 
         <p className="text-sm text-muted-foreground uppercase tracking-wide"> 
-          {`category: ${project.category}`}
+          {`category: ${project.category.join(", ")}`}
         </p>
       </div>
 

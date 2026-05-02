@@ -31,7 +31,7 @@ export default function ProjectCard({ project }: any) {
 
         {/* CATEGORY */}
         <p className="text-xs text-muted-foreground uppercase tracking-wide">
-          {project.category}
+          {project.category[0]}
         </p>
 
         {/* TECH STACK */}
