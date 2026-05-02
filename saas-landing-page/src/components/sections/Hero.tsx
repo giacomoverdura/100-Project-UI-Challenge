@@ -51,7 +51,7 @@ export default function Hero() {
         <div className="relative hidden md:block">
 
           {/* glow */}
-          <div className="absolute -inset-10 bg-primary/10 blur-3xl rounded-full" />
+          <div className="absolute -inset-10 bg-primary/10 blur-3xl rounded-full animate-pulse" />
 
           {/* mock UI */}
           <div className="relative border border-border rounded-2xl p-6 bg-background shadow-xl">
