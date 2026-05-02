@@ -31,14 +31,6 @@ export default function Navbar() {
             GitHub
           </a>
 
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            className="text-muted-foreground hover:text-foreground transition"
-          >
-            LinkedIn
-          </a>
-
         </div>
 
       </div>
