@@ -29,7 +29,7 @@ export default function Role() {
           {[...roles, ...roles].map((role, index) => (
             <div
               key={index}
-              className="px-10 py-4 uppercase border-x border-border/50 bg-card text-sm text-muted-foreground whitespace-nowrap transition"
+              className="px-10 py-4 uppercase border-x border-border/50 bg-card text-md text-muted-foreground whitespace-nowrap transition"
             >
               {role}
             </div>

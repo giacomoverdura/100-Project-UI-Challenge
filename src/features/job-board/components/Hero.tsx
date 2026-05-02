@@ -14,7 +14,7 @@ export default function Hero() {
 
   const jobs = [
     { title: "Frontend Developer", company: "Vercel", workSetup : ["Remote"], datePost: "2 days ago", salary: "$120k - $150k" },
-    { title: "UI Designer", company: "Spotify", workSetup : ["North Edsa"], datePost: "1 week ago", salary: "$100k - $120k" },
+    { title: "UI Designer", company: "Spotify", workSetup : ["Makati"], datePost: "1 week ago", salary: "$100k - $120k" },
     { title: "Backend Engineer", company: "Stripe", workSetup : ["Hybrid", "Quezon City"], datePost: "3 days ago", salary: "$130k - $160k" },
     { title: "React Developer", company: "Meta", workSetup : ["Remote"], datePost: "5 days ago", salary: "$140k - $170k" },
   ]
@@ -45,7 +45,7 @@ export default function Hero() {
         </div>
 
         {/* RIGHT SIDE - SEARCH PANEL */}
-        <div className="rounded-2xl border border-border bg-card p-5 space-y-6 shadow-lg">
+        <div className="rounded-lg border border-border bg-card p-7 space-y-6 shadow-lg">
 
           {/* SEARCH */}
           <div className="space-y-3">
