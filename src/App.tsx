@@ -1,16 +1,14 @@
 import { Routes, Route } from "react-router-dom"
-// import Home from "./pages/Home"
-import SaaSLandingPage from "./features/saas-landing-page/index"
+import Home from "./pages/Home"
+import ProjectPage from "./pages/ProjectPage"
+import DemoPage from "./pages/DemoPage"
 
-function App() {
+export default function App() {
   return (
     <Routes>
-      {/* <Route path="/" element={<Home />} /> */}
-      <Route path="/projects/saas-landing-page" element={<SaaSLandingPage />} />
-
-      <Route path="*" element={<h1>404 Not Found</h1>} />
+      <Route path="/" element={<Home />} />
+      <Route path="/projects/:slug" element={<ProjectPage />} />
+      <Route path="/demo/:slug" element={<DemoPage />} />
     </Routes>
   )
 }
-
-export default App
