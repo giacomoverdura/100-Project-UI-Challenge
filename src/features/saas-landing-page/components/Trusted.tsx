@@ -1,11 +1,18 @@
+import googleLogo from "../images/google-logo.svg"
+import microsoftLogo from "../images/microsoft-logo.svg"
+import amazonLogo from "../images/amazon-logo.svg"
+import metaLogo from "../images/meta-logo.svg"
+import netflixLogo from "../images/netflix-logo.svg"
+import spotifyLogo from "../images/spotify-logo.svg"
+
 export default function Trusted() {
   const companies = [
-    {"name": "Google", logo: "google-logo.svg"},
-    {"name": "Microsoft", logo: "microsoft-logo.svg"},
-    {"name": "Amazon", logo: "amazon-logo.svg"},
-    {"name": "Meta", logo: "meta-logo.svg"},
-    {"name": "Netflix", logo: "netflix-logo.svg"},
-    {"name": "Spotify", logo: "spotify-logo.svg"},
+    {"name": "Google", logo: googleLogo},
+    {"name": "Microsoft", logo: microsoftLogo},
+    {"name": "Amazon", logo: amazonLogo},
+    {"name": "Meta", logo: metaLogo},
+    {"name": "Netflix", logo: netflixLogo},
+    {"name": "Spotify", logo: spotifyLogo},
   ]
 
   return (

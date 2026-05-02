@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Check } from "lucide-react"
-import { plans } from "@/data/PricingData"
+import { plans } from "@/features/saas-landing-page/data/PricingData"
 
 export default function Pricing() {
   return (

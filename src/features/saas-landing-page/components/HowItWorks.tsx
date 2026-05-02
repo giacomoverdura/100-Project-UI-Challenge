@@ -1,4 +1,4 @@
-import { howItWorksSteps } from "@/data/HowItWorksData"
+import { howItWorksSteps } from "@/features/saas-landing-page/data/HowItWorksData"
 
 export default function HowItWorks() {
   return (

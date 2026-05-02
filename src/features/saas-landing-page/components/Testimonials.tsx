@@ -7,7 +7,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import { Star } from "lucide-react"
-import { testimonials } from "@/data/TestimonialsData"
+import { testimonials } from "@/features/saas-landing-page/data/TestimonialsData"
 
 export default function Testimonials() {
   return (
